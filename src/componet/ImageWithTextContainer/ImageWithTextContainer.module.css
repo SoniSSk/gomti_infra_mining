@@ -1,0 +1,36 @@
+.contaoner {
+    width: 400px;
+    height: 550px;
+    flex-shrink: 0;
+    border: 1px solid #345E40;
+
+}
+
+.img_st {
+    width: 400px;
+    height: 291.461px;
+    flex-shrink: 0;
+}
+
+.text_he {
+
+    flex-shrink: 0;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.text_cont {
+    padding: 20px 20px;
+    color: #626262;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
