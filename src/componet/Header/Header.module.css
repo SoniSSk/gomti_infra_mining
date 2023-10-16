@@ -12,4 +12,5 @@
     align-items: center;
     gap: 2rem;
     width: 600px;
+    cursor: pointer;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
     const headerOptions = [
@@ -11,15 +12,20 @@ const Header = () => {
         { name: 'Contact Us', link: '/gomti_infra_mining/contact' },
     ];
 
+    const navigate = useNavigate();;
+
+
     return (
         <div className={styles.main_container}>
             <div>Gomti Infra & Mining</div>
             <div className={styles.option_container}>
                 {headerOptions.map((option, index) => (
                     <div key={index}>
-                        <a href={option.link}>
+                        <div onClick={() => {
+                            navigate(option.link);
+                        }}>
                             {option.name}
-                        </a>
+                        </div>
 
                     </div>
                 ))}
