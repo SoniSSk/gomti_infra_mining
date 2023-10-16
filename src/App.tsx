@@ -11,7 +11,6 @@ import Services from './componet/Services/Services';
 function App() {
   return <>
     <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/gomti_infra_mining" element={<Dashboard />} />
         <Route path="/gomti_infra_mining/about" element={<AboutUs />} />

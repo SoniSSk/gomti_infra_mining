@@ -6,6 +6,15 @@
     /* z-index: -1; */
 }
 
+.jj {
+    background-image: url(../../assets/images/asdfghj.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+
+}
+
 .goal_container {
     color: #FFF;
     font-family: Inter;
@@ -25,7 +34,7 @@
 
 
 .text_container {
-    padding: 50px;
+    padding: 100px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,4 +82,16 @@
     align-items: center;
     gap: 40px;
     background: rgb(244, 247, 244);
+}
+
+.banner_text {
+    font-size: 50px;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 140px 0px;
 }

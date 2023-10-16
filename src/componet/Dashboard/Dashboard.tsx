@@ -7,6 +7,7 @@ import ImageWithTextContainer from '../ImageWithTextContainer/ImageWithTextConta
 import enviornment from '../../assets/images/envior.png';
 import mission from '../../assets/images/kkkk.png';
 import imgg from '../../assets/images/0.jpg';
+import Header from '../Header/Header';
 // import ImageWrapper from './ImageWrapper';
 
 const Dashboard: React.FC = () => {
@@ -34,14 +35,21 @@ const Dashboard: React.FC = () => {
     ]
 
     return (
-        <div className={styles.jj}>
+        <div className={styles.jjs}>
 
+            <div className={styles.jj}>
+                <Header />
 
-            <img src={truck} alt="Picte"
-                className={styles.image_ii}
-            />
+                {/* <img src={truck} alt="Picte"
+                    className={styles.image_ii}
+                /> */}
 
-
+                <div
+                    className={styles.banner_text}
+                >
+                    <div style={{ width: "500px " }}>Gomti Infra & Mining Private Limited</div>
+                </div>
+            </div>
             <div className={styles.text_container}>
                 <div className={styles.ttext}>
                     Who We Are ?

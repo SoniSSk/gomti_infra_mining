@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './AboutUs.module.css'
+import Header from '../Header/Header'
 
 const AboutUs = () => {
 
@@ -38,59 +39,63 @@ const AboutUs = () => {
         }
     ]
     return (
+        <>
+            <Header />
+            <div className={styles.main_container}>
 
-        <div className={styles.main_container}>
-            <div>
-                <div className={styles.text}>
-                    About us
-                </div>
-
-
-
-                <div
-                    className={styles.container_aaaa}
-                >
-                    <div
-                        className={styles.bbbb}
-                    >
-                        {
-                            abloutUs.map((about, index) => (
-                                <div key={index}>
-                                    <div className={styles.main_texts}>
-                                        {about.heading}
-                                    </div>
-                                </div>
-                            ))
-                        }
+                <div>
+                    <div className={styles.text}>
+                        About us
                     </div>
+
+
+
                     <div
-                        className={styles.aaaa}
+                        className={styles.container_aaaa}
                     >
-                        {
-                            abloutUs.map((about, index) => (
-                                <div key={index}>
-                                    <div className={styles.main_text}>
-                                        {about.heading}
+                        <div
+                            className={styles.bbbb}
+                        >
+                            {
+                                abloutUs.map((about, index) => (
+                                    <div key={index}>
+                                        <div className={styles.main_texts}>
+                                            {about.heading}
+                                        </div>
                                     </div>
-                                    <div className={styles.ss}>
-                                        {about.content}
+                                ))
+                            }
+                        </div>
+                        <div
+                            className={styles.aaaa}
+                        >
+                            {
+                                abloutUs.map((about, index) => (
+                                    <div key={index}>
+                                        <div className={styles.main_text}>
+                                            {about.heading}
+                                        </div>
+                                        <div className={styles.ss}>
+                                            {about.content}
+                                        </div>
                                     </div>
-                                </div>
-                            ))
-                        }
+                                ))
+                            }
+                        </div>
                     </div>
+
+
                 </div>
-
-
+                {/* <div>
+    <img
+        src={iron_ore_mines}
+        alt='aa'
+        className={styles.image}
+    />
+</div> */}
             </div>
-            {/* <div>
-                <img
-                    src={iron_ore_mines}
-                    alt='aa'
-                    className={styles.image}
-                />
-            </div> */}
-        </div>
+        </>
+
     )
 }
 
