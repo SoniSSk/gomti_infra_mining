@@ -12,11 +12,11 @@ function App() {
       <Header />
       <Routes>
         <Route path="/gomti_infra_mining" element={<Dashboard />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/services" element={<AboutUs />} />
-        <Route path="/certificate" element={<AboutUs />} />
-        <Route path="/csr-activity" element={<AboutUs />} />
-        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/gomti_infra_mining/about" element={<AboutUs />} />
+        <Route path="/gomti_infra_mining/services" element={<AboutUs />} />
+        <Route path="/gomti_infra_mining/certificate" element={<AboutUs />} />
+        <Route path="/gomti_infra_mining/csr-activity" element={<AboutUs />} />
+        <Route path="/gomti_infra_mining/contact" element={<ContactUs />} />
         <Route path="*" element={<Dashboard />} />
       </Routes>
       <Footer />
