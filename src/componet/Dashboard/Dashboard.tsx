@@ -41,7 +41,16 @@ const Dashboard: React.FC = () => {
                     Who We Are ?
                 </div>
                 <div className={styles.inner_text}>
-                    <b>Gomti Infra Mining Pvt. Ltd.</b>, we are dedicated to the responsible exploration and extraction of the Earth's valuable resources. With a legacy dating back decades, our company has been a stalwart in the mining industry, contributing to global development while prioritizing sustainability and environmental stewardship.
+                    <b>Gomti Infra & Mining Private Limited</b>,
+                    we are dedicated to the responsible exploration and extraction
+                    of the Earth's valuable resources. With a legacy dating back decades,
+                    our company has been a stalwart in the mining industry, contributing to
+                    global development while prioritizing sustainability and environmental
+                    stewardship. <a href="/about"
+                        style={{
+                            textDecoration: "none"
+                        }}
+                    > read more...</a>
                 </div>
             </div>
 

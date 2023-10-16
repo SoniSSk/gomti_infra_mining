@@ -3,12 +3,12 @@ import styles from './Header.module.css';
 
 const Header = () => {
     const headerOptions = [
-        { name: 'Home', link: '/gomti_infra_mining' },
-        { name: 'About Us', link: '/gomti_infra_mining/about' },
-        { name: 'Product', link: '/gomti_infra_mining/services' },
-        { name: 'Compliances', link: '/gomti_infra_mining/gallery' },
-        { name: 'CSR Activity', link: '/gomti_infra_mining/blog' },
-        { name: 'Contact Us', link: '/gomti_infra_mining/contact' },
+        { name: 'Home', link: '/' },
+        { name: 'About Us', link: '/about' },
+        { name: 'Services', link: '/services' },
+        { name: 'Certificates', link: '/certificate' },
+        { name: 'CSR Activity', link: '/csr-activity' },
+        { name: 'Contact Us', link: '/contact' },
     ];
 
     return (

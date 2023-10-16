@@ -56,10 +56,8 @@
     /* 187.5% */
     padding-top: 20px;
     text-align: justify;
-
     width: 50%;
-    text-transform: capitalize;
-
+    text-decoration: none !important;
 }
 
 .image_ii {
