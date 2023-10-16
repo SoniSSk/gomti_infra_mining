@@ -49,15 +49,8 @@ const AboutUs = () => {
                     <div className={styles.text}>
                         About us
                     </div>
-
-
-
-                    <div
-                        className={styles.container_aaaa}
-                    >
-                        <div
-                            className={styles.bbbb}
-                        >
+                    <div className={styles.container_aaaa} >
+                        <div className={styles.bbbb} >
                             {
                                 abloutUs.map((about, index) => (
                                     <div key={index}>
@@ -68,9 +61,7 @@ const AboutUs = () => {
                                 ))
                             }
                         </div>
-                        <div
-                            className={styles.aaaa}
-                        >
+                        <div className={styles.aaaa} >
                             {
                                 abloutUs.map((about, index) => (
                                     <div key={index}>
@@ -85,16 +76,7 @@ const AboutUs = () => {
                             }
                         </div>
                     </div>
-
-
                 </div>
-                {/* <div>
-    <img
-        src={iron_ore_mines}
-        alt='aa'
-        className={styles.image}
-    />
-</div> */}
             </div>
         </>
 

@@ -17,7 +17,7 @@ const Header = () => {
 
     return (
         <div className={styles.main_container}>
-            <div>Gomti Infra & Mining</div>
+            <div className={styles.gomti}>Gomti <span className={styles.infra}> Infra </span> & Mining</div>
             <div className={styles.option_container}>
                 {headerOptions.map((option, index) => (
                     <div key={index}>

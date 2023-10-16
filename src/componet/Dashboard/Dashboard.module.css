@@ -1,11 +1,3 @@
-.main_container {
-    /* background-image: url("../../assets/images/truck.jpg"); */
-}
-
-.background_image {
-    /* z-index: -1; */
-}
-
 .jj {
     background-image: url(../../assets/images/asdfghj.jpeg);
     background-repeat: no-repeat;
@@ -102,4 +94,5 @@
     font-weight: 700;
     line-height: 1.5;
     font-family: Inter;
+    cursor: pointer;
 }

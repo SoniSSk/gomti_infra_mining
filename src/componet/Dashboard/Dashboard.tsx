@@ -1,8 +1,5 @@
 import React from 'react';
-import truck from '../../assets/images/asdfghj.jpeg';
-// import Image from 'next/image';
 import styles from './Dashboard.module.css';
-import kul from '../../assets/images/kul.jpeg';
 import ImageWithTextContainer from '../ImageWithTextContainer/ImageWithTextContainer';
 import enviornment from '../../assets/images/envior.png';
 import mission from '../../assets/images/kkkk.png';
@@ -42,11 +39,6 @@ const Dashboard: React.FC = () => {
 
             <div className={styles.jj}>
                 <Header />
-
-                {/* <img src={truck} alt="Picte"
-                    className={styles.image_ii}
-                /> */}
-
                 <div
                     className={styles.banner_text}
                 >
