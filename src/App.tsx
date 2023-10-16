@@ -19,7 +19,6 @@ function App() {
         <Route path="/gomti_infra_mining/certificate" element={<Services />} />
         <Route path="/gomti_infra_mining/csr-activity" element={<CSRActivity />} />
         <Route path="/gomti_infra_mining/contact" element={<ContactUs />} />
-        <Route path="*" element={<Dashboard />} />
       </Routes>
       <Footer />
     </BrowserRouter>
