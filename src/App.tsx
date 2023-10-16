@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/gomti_infra_mining" element={<Dashboard />} />
+        <Route path="/gomti_infra_mining" element={<AboutUs />} />
         <Route path="/gomti_infra_mining/about" element={<AboutUs />} />
         <Route path="/gomti_infra_mining/services" element={<AboutUs />} />
         <Route path="/gomti_infra_mining/certificate" element={<AboutUs />} />
