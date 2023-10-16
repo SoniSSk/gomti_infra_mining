@@ -2,8 +2,6 @@ import React from 'react';
 import truck from '../../assets/images/truck.jpg';
 // import Image from 'next/image';
 import styles from './Dashboard.module.css';
-import Header from '../Header/Header';
-import texture from '../../assets/images/texture.svg';
 import kul from '../../assets/images/kul.jpeg';
 import ImageWithTextContainer from '../ImageWithTextContainer/ImageWithTextContainer';
 // import ImageWrapper from './ImageWrapper';
@@ -12,7 +10,7 @@ const Dashboard: React.FC = () => {
     const constainers = [
         {
             image: truck,
-            heading: "Our Mission",
+            heading: "Company Overview",
             text: "We are dedicated to the responsible exploration and extraction of the Earth's valuable resources. With a legacy dating back decades, our company has been a stalwart in the mining industry, contributing to global development while prioritizing sustainability and environmental stewardship."
         },
         {
@@ -22,9 +20,10 @@ const Dashboard: React.FC = () => {
         },
         {
             image: truck,
-            heading: "Our Mission",
+            heading: "CSR Activity",
             text: "We are dedicated to the responsible exploration and extraction of the Earth's valuable resources. With a legacy dating back decades, our company has been a stalwart in the mining industry, contributing to global development while prioritizing sustainability and environmental stewardship."
-        }
+        },
+
 
     ]
 

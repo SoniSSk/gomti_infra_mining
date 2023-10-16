@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './ContactUs.module.css'
-// import Image from 'next/image'
-import iron_ore_mines from '../../assets/images/iron_ore_mine.jpg'
 
 const ContactUs = () => {
     return (

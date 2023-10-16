@@ -1,21 +1,19 @@
 import React from 'react';
 import styles from './Header.module.css';
-import AboutUs from '../AboutUs/AboutUs';
-// import Link from 'next/link';
 
 const Header = () => {
     const headerOptions = [
-        { name: 'Home', link: '/' },
-        { name: 'About Us', link: '/about' },
-        { name: 'Operations', link: '/services' },
-        { name: 'Compliances', link: '/gallery' },
-        { name: 'CSR Activity', link: '/blog' },
-        { name: 'Contact Us', link: '/contact' },
+        { name: 'Home', link: '/gomti_infra_mining' },
+        { name: 'About Us', link: '/gomti_infra_mining/about' },
+        { name: 'Product', link: '/gomti_infra_mining/services' },
+        { name: 'Compliances', link: '/gomti_infra_mining/gallery' },
+        { name: 'CSR Activity', link: '/gomti_infra_mining/blog' },
+        { name: 'Contact Us', link: '/gomti_infra_mining/contact' },
     ];
 
     return (
         <div className={styles.main_container}>
-            <div>Gomti Infra Mining</div>
+            <div>Gomti Infra & Mining</div>
             <div className={styles.option_container}>
                 {headerOptions.map((option, index) => (
                     <div key={index}>
