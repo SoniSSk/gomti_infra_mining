@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/gomti_infra_mining/static/css/main.ba2d4e2c.css",
-    "main.js": "/gomti_infra_mining/static/js/main.9f22445b.js",
+    "main.js": "/gomti_infra_mining/static/js/main.e3bf7475.js",
     "static/js/787.e3871c2b.chunk.js": "/gomti_infra_mining/static/js/787.e3871c2b.chunk.js",
     "static/media/truck.jpg": "/gomti_infra_mining/static/media/truck.5d66cede875131bdbf79.jpg",
     "static/media/kul.jpeg": "/gomti_infra_mining/static/media/kul.974497105209fcb01eef.jpeg",
     "static/media/envior.png": "/gomti_infra_mining/static/media/envior.d7bc9092cfbafb1fd566.png",
     "index.html": "/gomti_infra_mining/index.html",
     "main.ba2d4e2c.css.map": "/gomti_infra_mining/static/css/main.ba2d4e2c.css.map",
-    "main.9f22445b.js.map": "/gomti_infra_mining/static/js/main.9f22445b.js.map",
+    "main.e3bf7475.js.map": "/gomti_infra_mining/static/js/main.e3bf7475.js.map",
     "787.e3871c2b.chunk.js.map": "/gomti_infra_mining/static/js/787.e3871c2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba2d4e2c.css",
-    "static/js/main.9f22445b.js"
+    "static/js/main.e3bf7475.js"
   ]
 }
