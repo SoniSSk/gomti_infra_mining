@@ -1,22 +1,24 @@
 import React from 'react';
-import truck from '../../assets/images/truck.jpg';
+import truck from '../../assets/images/asdfghj.jpeg';
 // import Image from 'next/image';
 import styles from './Dashboard.module.css';
 import kul from '../../assets/images/kul.jpeg';
 import ImageWithTextContainer from '../ImageWithTextContainer/ImageWithTextContainer';
 import enviornment from '../../assets/images/envior.png';
+import mission from '../../assets/images/kkkk.png';
+import imgg from '../../assets/images/0.jpg';
 // import ImageWrapper from './ImageWrapper';
 
 const Dashboard: React.FC = () => {
     const constainers = [
         {
-            image: truck,
+            image: imgg,
             heading: "Company Overview",
             text: "Gomti Infra & Mining Pvt. Ltd., we are dedicated to the responsible exploration and extraction of the Earth's valuable resources. With a legacy dating back decades, our company has been a stalwart in the mining industry, contributing to global development while prioritizing sustainability and environmental stewardship.",
             link: "/gomti_infra_mining/about"
         },
         {
-            image: truck,
+            image: mission,
             heading: "Our Mission",
             text: "Our mission is to be a leader in the mining industry, known for our commitment to safety, environmental responsibility, and the well-being of the communities where we operate. We strive to deliver the highest quality minerals and metals to meet the world's growing demands.",
             link: "/gomti_infra_mining/about"
@@ -35,7 +37,7 @@ const Dashboard: React.FC = () => {
         <div className={styles.jj}>
 
 
-            <img src={kul} alt="Picte"
+            <img src={truck} alt="Picte"
                 className={styles.image_ii}
             />
 
@@ -50,7 +52,7 @@ const Dashboard: React.FC = () => {
                     of the Earth's valuable resources. With a legacy dating back decades,
                     our company has been a stalwart in the mining industry, contributing to
                     global development while prioritizing sustainability and environmental
-                    stewardship. <a href="/about"
+                    stewardship. <a href="/gomti_infra_mining/about"
                         style={{
                             textDecoration: "none"
                         }}

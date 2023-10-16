@@ -3,13 +3,14 @@
     height: 550px;
     flex-shrink: 0;
     border: 1px solid #345E40;
-
+    border-radius: 10px;
 }
 
 .img_st {
     width: 400px;
     height: 291.461px;
     flex-shrink: 0;
+    border-radius: 9px 9px 0px 0px;
 }
 
 .text_he {
@@ -26,7 +27,7 @@
 }
 
 .text_cont {
-    padding: 20px 20px;
+    padding: 10px 20px;
     color: #626262;
     font-family: Gilroy;
     font-size: 18px;

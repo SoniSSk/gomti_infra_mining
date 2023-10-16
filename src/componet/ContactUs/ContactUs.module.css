@@ -18,7 +18,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    width: 525px;
     text-align: justify;
     line-height: 1.5;
 }
