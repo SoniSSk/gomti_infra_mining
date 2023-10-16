@@ -113,3 +113,12 @@
     cursor: pointer;
     ;
 }
+
+.jj {
+    background-image: url(../../assets/images/asdfghj.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+
+}

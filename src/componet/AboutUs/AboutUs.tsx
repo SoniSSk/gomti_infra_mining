@@ -40,7 +40,9 @@ const AboutUs = () => {
     ]
     return (
         <>
-            <Header />
+            <div className={styles.jj}>
+                <Header />
+            </div>
             <div className={styles.main_container}>
 
                 <div>

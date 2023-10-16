@@ -5,7 +5,9 @@ import Header from '../Header/Header'
 const ContactUs = () => {
     return (
         <>
-            <Header />
+            <div className={styles.jj}>
+                <Header />
+            </div>
             <div className={styles.main_container}>
                 <div>
                     <div className={styles.text}>
@@ -19,22 +21,25 @@ const ContactUs = () => {
                                 styles.get_in_touch
                             }>
 
-                            Get in touch
+                            Gomti Infra & Mining Pvt. Ltd. (Main Office)
+                        </div>
+
+                        <div>
+                            Address:- <span className={styles.s}> Ground Floor 3/777, Vastu khand Gomti Nagar Lucknow (Uttar Pradesh) Pin-226010</span>
+
                         </div>
                         <div>
                             Email:- <span className={styles.link}>gomtiinfra2001@gmail.com</span>
                         </div>
                         <div>
-                            Mobile:- <span className={styles.link}>+91-9648322001, +91-9648922001</span>
+                            Mobile:- <span className={styles.link}>+91-9648322001 </span>
                         </div>
                         <div>
-                            Address:- <span className={styles.s}>Ground Floor 3/777, Vastu khand Gomti Nagar Lucknow (Uttar Pradesh) Pin-226010</span>
+                            Mobile:- <span className={styles.link}>+91-9648922001 </span>
                         </div>
 
-                        <div className={styles.ss}>
-                            We look forward to engaging with you and sharing more about our work. For inquiries, partnerships, or any questions you may have, please get in touch with our team.
 
-                            Thank you for considering <b>Gomti Infra & Mining Pvt. Ltd. </b> As a partner in responsible mining activities. Together, we can build a sustainable and prosperous future. </div>
+
                     </div>
                 </div>
                 {/* <div>
@@ -44,22 +49,22 @@ const ContactUs = () => {
                     className={styles.image}
                 />
             </div> */}
-                {/* <div className={styles.mail_container}>
-                <div
-                    className={styles.mail_input}
-                >
-                    <div className={styles.input_feild}>
-                        Name
+                <div className={styles.mail_container}>
+                    <div
+                        className={styles.mail_input}
+                    >
+                        <div className={styles.input_feild}>
+                            Name
+                        </div>
+                        <div className={styles.input_feild}>
+                            email
+                        </div>
                     </div>
-                    <div className={styles.input_feild}>
-                        email
-                    </div>
-                </div>
-                <div className={styles.input_feild_two}>
+                    <div className={styles.input_feild_two}>
 
+                    </div>
+                    <button className={styles.button_style} type="submit">Send Message</button>
                 </div>
-                <button className={styles.button_style} type="submit">Send Message</button>
-            </div> */}
 
             </div >
         </>

@@ -95,3 +95,11 @@
     justify-content: center;
     padding: 140px 0px;
 }
+
+.read_more {
+    color: blue;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: Inter;
+}

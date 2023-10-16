@@ -23,6 +23,7 @@ const Header = () => {
                     <div key={index}>
                         <div onClick={() => {
                             navigate(option.link);
+                            window.scrollTo(0, 0)
                         }}>
                             {option.name}
                         </div>

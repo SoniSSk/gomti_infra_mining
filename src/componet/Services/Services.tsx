@@ -6,7 +6,9 @@ import Header from '../Header/Header'
 const Services = () => {
     return (
         <>
-            <Header />
+            <div className={styles.jj}>
+                <Header />
+            </div>
             <div className={styles.main_container}>
                 <div>
                     <div className={styles.text}>

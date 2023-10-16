@@ -8,6 +8,7 @@ import enviornment from '../../assets/images/envior.png';
 import mission from '../../assets/images/kkkk.png';
 import imgg from '../../assets/images/0.jpg';
 import Header from '../Header/Header';
+import { useNavigate } from 'react-router-dom';
 // import ImageWrapper from './ImageWrapper';
 
 const Dashboard: React.FC = () => {
@@ -16,23 +17,25 @@ const Dashboard: React.FC = () => {
             image: imgg,
             heading: "Company Overview",
             text: "Gomti Infra & Mining Pvt. Ltd., we are dedicated to the responsible exploration and extraction of the Earth's valuable resources. With a legacy dating back decades, our company has been a stalwart in the mining industry, contributing to global development while prioritizing sustainability and environmental stewardship.",
-            link: "/gomti_infra_mining/about"
+            link: "/gomti_infra_mining/about/"
         },
         {
             image: mission,
             heading: "Our Mission",
             text: "Our mission is to be a leader in the mining industry, known for our commitment to safety, environmental responsibility, and the well-being of the communities where we operate. We strive to deliver the highest quality minerals and metals to meet the world's growing demands.",
-            link: "/gomti_infra_mining/about"
+            link: "/gomti_infra_mining/about/"
         },
         {
             image: enviornment,
             heading: "CSR Activity",
             text: "We are dedicated to the responsible exploration and extraction of the Earth's valuable resources. With a legacy dating back decades, our company has been a stalwart in the mining industry, contributing to global development while prioritizing sustainability and environmental stewardship.",
-            link: "/gomti_infra_mining/csr-activity"
+            link: "/gomti_infra_mining/csr-activity/"
         },
 
 
     ]
+
+    const navigate = useNavigate();
 
     return (
         <div className={styles.jjs}>
@@ -60,11 +63,15 @@ const Dashboard: React.FC = () => {
                     of the Earth's valuable resources. With a legacy dating back decades,
                     our company has been a stalwart in the mining industry, contributing to
                     global development while prioritizing sustainability and environmental
-                    stewardship. <a href="/gomti_infra_mining/about"
-                        style={{
-                            textDecoration: "none"
-                        }}
-                    > read more...</a>
+                    stewardship. <span
+                        className={styles.read_more}
+                        onClick={() => {
+                            navigate("/gomti_infra_mining/about");
+                            window.scrollTo(0, 0)
+                        }
+                        }
+
+                    > read more...</span>
                 </div>
             </div>
 

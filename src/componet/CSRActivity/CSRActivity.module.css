@@ -6,6 +6,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    display: flex;
+    justify-content: center;
     text-transform: capitalize;
     line-height: 1.5;
 }
@@ -27,7 +29,7 @@
     justify-content: center;
     align-items: center;
     gap: 80px;
-    padding: 100px;
+    padding: 50px 100px;
     line-height: 1.5;
 }
 
@@ -112,4 +114,13 @@
     text-decoration: none;
     cursor: pointer;
     ;
+}
+
+.jj {
+    background-image: url(../../assets/images/asdfghj.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+
 }

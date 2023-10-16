@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ImageWithTextContainer.module.css';
+import { useNavigate } from 'react-router-dom';
 
 const ImageWithTextContainer = (props: any) => {
     const {
@@ -8,6 +9,8 @@ const ImageWithTextContainer = (props: any) => {
         text,
         link
     } = props;
+    const navigate = useNavigate();
+
     return (
         <div className={styles.contaoner}>
             <img
@@ -20,7 +23,14 @@ const ImageWithTextContainer = (props: any) => {
                 {heading}
             </div>
             <div className={styles.text_cont}>
-                <p>{text} <a href={link}>read more...</a></p>
+                <p>{text} <span
+                    className={styles.read_more}
+                    onClick={() => {
+                        navigate(link);
+                        window.scrollTo(0, 0)
+                    }}>
+                    read more...
+                </span></p>
             </div>
         </div>
     );
