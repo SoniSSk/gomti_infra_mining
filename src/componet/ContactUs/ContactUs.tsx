@@ -49,7 +49,7 @@ const ContactUs = () => {
                     className={styles.image}
                 />
             </div> */}
-                <div className={styles.mail_container}>
+                {/* <div className={styles.mail_container}>
                     <div
                         className={styles.mail_input}
                     >
@@ -64,7 +64,7 @@ const ContactUs = () => {
 
                     </div>
                     <button className={styles.button_style} type="submit">Send Message</button>
-                </div>
+                </div> */}
 
             </div >
         </>

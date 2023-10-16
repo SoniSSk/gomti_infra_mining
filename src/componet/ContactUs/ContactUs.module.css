@@ -5,6 +5,8 @@
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
     line-height: normal;
     text-transform: capitalize;
     line-height: 1.5;
@@ -27,7 +29,7 @@
     justify-content: center;
     align-items: center;
     gap: 80px;
-    padding: 100px;
+    padding: 50px 100px;
     line-height: 1.5;
 }
 
