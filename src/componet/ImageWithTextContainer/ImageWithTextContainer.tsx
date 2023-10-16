@@ -5,7 +5,8 @@ const ImageWithTextContainer = (props: any) => {
     const {
         image,
         heading,
-        text
+        text,
+        link
     } = props;
     return (
         <div className={styles.contaoner}>
@@ -19,7 +20,7 @@ const ImageWithTextContainer = (props: any) => {
                 {heading}
             </div>
             <div className={styles.text_cont}>
-                <p>{text}</p>
+                <p>{text} <a href={link}>read more...</a></p>
             </div>
         </div>
     );

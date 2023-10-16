@@ -1,8 +1,42 @@
 import React from 'react'
 import styles from './AboutUs.module.css'
-import iron_ore_mines from '../../assets/images/iron_ore_mine.jpg'
 
 const AboutUs = () => {
+
+    const abloutUs = [
+        {
+            heading: "Company Overview",
+            content: 'At GOMTI INFRA & MINING PRIVATE LIMITED, we are dedicated to the responsible exploration and extraction of the Earths valuable resources. With a legacy dating back decades, our company has been a stalwart in the mining industry, contributing to global development while prioritizing sustainability and environmental stewardship.'
+        },
+        {
+            heading: "Our Mission",
+            content: "Our mission is to be a leader in the mining industry, known for our commitment to safety, environmental responsibility, and the well-being of the communities where we operate. We strive to deliver the highest quality minerals and metals to meet the world's growing demands."
+        },
+        {
+            heading: "Our Commitment to Sustainability",
+            content: "Environmental responsibility is at the core of our operations. We employ state-of-the-art technologies and practices to minimize our ecological footprint. From reclamation efforts to water and energy conservation, we are dedicated to leaving a positive impact on the environment."
+        },
+        {
+            heading: "Our Commitment to Safety",
+            content: "The safety of our employees and partners is non-negotiable. We maintain the highest safety standards and continuously invest in training and resources to ensure that everyone who works with us returns home safely."
+        },
+        {
+            heading: "Our Community Engagement",
+            content: "We believe in being good neighbors. We work closely with local communities to create shared value. Through job opportunities, education, and community projects, we aim to be a catalyst for progress and development in the areas we operate."
+        },
+        {
+            heading: 'Innovation and Technology',
+            content: 'We are always at the forefront of innovation. Our commitment to cutting-edge technology not only improves efficiency but also helps us reduce the environmental impact of our mining activities.'
+        },
+        {
+            heading: 'Quality Assurance',
+            content: 'Delivering top-tier products is our promise. We have rigorous quality control processes in place to ensure that the minerals and metals we extract meet the highest industry standards.'
+        },
+        {
+            heading: 'A Bright Future',
+            content: 'The mining industry is constantly evolving, and so are we. We are committed to adapting to new challenges and opportunities, while adhering to the principles that have made us a respected name in the mining sector.'
+        }
+    ]
     return (
 
         <div className={styles.main_container}>
@@ -10,26 +44,52 @@ const AboutUs = () => {
                 <div className={styles.text}>
                     About us
                 </div>
-                <div className={styles.conatainer}>
-                    {/* Gomti Infra Mining Private Limited, we are dedicated to the responsible exploration and extraction of the Earth's valuable resources. With a legacy dating back decades, our company has been a stalwart in the mining industry, contributing to global development while prioritizing sustainability and environmental stewardship. */}
-                    <div>
-                        <span className={styles.main_text}> Gomti Infra & Mining Private Limited </span> is a company that focuses on responsible exploration and extraction of valuable resources from the Earth. They have a longstanding legacy that spans several decades, which has established them as a reliable and significant presence in the mining industry. Their core mission revolves around two key principles:
+
+
+
+                <div
+                    className={styles.container_aaaa}
+                >
+                    <div
+                        className={styles.bbbb}
+                    >
+                        {
+                            abloutUs.map((about, index) => (
+                                <div key={index}>
+                                    <div className={styles.main_texts}>
+                                        {about.heading}
+                                    </div>
+                                </div>
+                            ))
+                        }
                     </div>
-                    <div>
-                        Contributing to Global Development: company plays a vital role in the mining sector, which is crucial for the global economy and development. Through their activities, they help supply essential raw materials and resources that are used in various industries such as construction, manufacturing, and energy production. These resources are integral to economic growth and development on a global scale.
-                    </div>
-                    <div>
-                        Prioritizing Sustainability and Environmental Stewardship: Gomti Infra Mining Private Limited is committed to responsible mining practices. This means that they take steps to ensure their activities are conducted in an environmentally responsible and sustainable manner. They aim to minimize the negative impact on the environment and surrounding communities while maximizing the efficient and ethical use of natural resources.
+                    <div
+                        className={styles.aaaa}
+                    >
+                        {
+                            abloutUs.map((about, index) => (
+                                <div key={index}>
+                                    <div className={styles.main_text}>
+                                        {about.heading}
+                                    </div>
+                                    <div className={styles.ss}>
+                                        {about.content}
+                                    </div>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
+
+
             </div>
-            <div>
+            {/* <div>
                 <img
                     src={iron_ore_mines}
                     alt='aa'
                     className={styles.image}
                 />
-            </div>
+            </div> */}
         </div>
     )
 }

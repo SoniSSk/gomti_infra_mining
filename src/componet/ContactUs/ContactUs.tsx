@@ -25,9 +25,14 @@ const ContactUs = () => {
                     <div>
                         Mobile:- <span className={styles.link}>+91-9648322001, +91-9648922001</span>
                     </div>
-                    <div className={styles.ss}>
-                        Gomti Infra Mining Private Limited is a company that focuses on responsible exploration and extraction of valuable resources from the Earth. They have a longstanding legacy that spans several decades, which has established them as a reliable and significant presence in the mining industry. Their core mission revolves around two key principles:
+                    <div>
+                        Address:- <span className={styles.s}>Ground Floor 3/777, Vastu khand Gomti Nagar Lucknow (Uttar Pradesh) Pin-226010</span>
                     </div>
+
+                    <div className={styles.ss}>
+                        We look forward to engaging with you and sharing more about our work. For inquiries, partnerships, or any questions you may have, please get in touch with our team.
+
+                        Thank you for considering <b>Gomti Infra & Mining Pvt. Ltd. </b> As a partner in responsible mining activities. Together, we can build a sustainable and prosperous future. </div>
                 </div>
             </div>
             {/* <div>
