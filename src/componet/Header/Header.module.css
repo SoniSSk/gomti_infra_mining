@@ -17,6 +17,8 @@
 
 .gomti {
     font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
     color: #0b5f23;
 }
 
