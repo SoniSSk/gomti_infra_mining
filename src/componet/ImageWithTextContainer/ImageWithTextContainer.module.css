@@ -1,16 +1,22 @@
 .contaoner {
-    width: 400px;
-    height: 550px;
+    display: flex;
     flex-shrink: 0;
     border: 1px solid #345E40;
     border-radius: 10px;
+    gap: 50px;
+}
+
+.sscontaoner {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .img_st {
     width: 400px;
     height: 291.461px;
     flex-shrink: 0;
-    border-radius: 9px 9px 0px 0px;
+    border-radius: 9px 0px 0px 9px;
 }
 
 .text_he {

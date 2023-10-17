@@ -71,7 +71,6 @@ const Dashboard: React.FC = () => {
                 {
                     constainers.map((container, index) => (
                         <div
-
                         >
                             <ImageWithTextContainer
                                 image={container.image}

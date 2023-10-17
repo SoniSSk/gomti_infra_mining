@@ -19,18 +19,22 @@ const ImageWithTextContainer = (props: any) => {
                 width={200}
                 className={styles.img_st}
             />
-            <div className={styles.text_he}>
-                {heading}
-            </div>
-            <div className={styles.text_cont}>
-                <p>{text} <span
-                    className={styles.read_more}
-                    onClick={() => {
-                        navigate(link);
-                        window.scrollTo(0, 0)
-                    }}>
-                    read more...
-                </span></p>
+            <div
+                className={styles.sscontaoner}
+            >
+                <div className={styles.text_he}>
+                    {heading}
+                </div>
+                <div className={styles.text_cont}>
+                    <p>{text} <span
+                        className={styles.read_more}
+                        onClick={() => {
+                            navigate(link);
+                            window.scrollTo(0, 0)
+                        }}>
+                        read more...
+                    </span></p>
+                </div>
             </div>
         </div>
     );
