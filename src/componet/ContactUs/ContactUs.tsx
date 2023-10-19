@@ -25,7 +25,7 @@ const ContactUs = () => {
                         </div>
 
                         <div>
-                            Address:- <span className={styles.s}> Ground Floor 3/777, Vastu khand Gomti Nagar Lucknow (Uttar Pradesh) Pin-226010</span>
+                            Address:- <span className={styles.s}> Ground Floor 3/777, Vastu khand, Gomti Nagar, Lucknow (Uttar Pradesh) Pin-226010</span>
 
                         </div>
                         <div>
